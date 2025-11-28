@@ -119,13 +119,16 @@ Build a full workflow appropriate for real-world deployment
 
 ----------------------------------------------------------------------------------------------------------------------------------------
  6. Results Summary
-Model	Validation Accuracy	Notes
-Baseline CNN	~87%	Strong for scratch model
-MobileNetV2	Best model	Good generalization
-EfficientNetB0	Unstable	Likely under-trained / partially frozen
-MobileNetV3-Large	Moderate	Suitable for mobile deployment
-
-MobileNetV2 showed the most stable and accurate predictions.
+    
+      ** The Baseline CNN achieved the strongest performance with 87.96% validation accuracy.**
+       
+         Transfer learning models performed worse due to:
+         
+         Differences between ImageNet features and leaf disease textures
+         
+         Dataset domain specificity
+         
+         Limited fine-tuning capacity on frozen layers (EfficientNet, MobileNetV3)
 
 ----------------------------------------------------------------------------------------------------------------------------------------
  7. Key Learnings
