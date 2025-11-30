@@ -1,9 +1,11 @@
-SmartVisionAgri: Plant Leaf Disease Classification
+_**SmartVisionAgri: Plant Leaf Disease Classification**__
+
 AAI-521: Computer Vision Applications – Final Project
 
 Author: Samiksha Kodgire
 Dataset: PlantVillage (Kaggle)
 Models Used: Baseline CNN, MobileNetV2, EfficientNetB0, MobileNetV3-Large
+----------------------------------------------------------------------------------------------------------------------------------------
 
  1. Project Overview
 
@@ -13,6 +15,7 @@ Agricultural productivity heavily depends on early and accurate disease detectio
 
 This work is designed as a graduate-level exploration of model design, training efficiency, interpretability, and comparative evaluation.
 
+Dataset used: https://www.kaggle.com/datasets/emmarex/plantdisease
 ----------------------------------------------------------------------------------------------------------------------------------------
  2. Objectives
 
